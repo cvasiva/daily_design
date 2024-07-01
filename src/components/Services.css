@@ -1,0 +1,103 @@
+.vector-icon {
+  width: 31.5px;
+  height: 31.5px;
+  position: relative;
+}
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-7) 0 0;
+}
+.graphic-design {
+  position: relative;
+  line-height: 38.68px;
+  white-space: nowrap;
+}
+
+.image-icon {
+  width: 34.3px;
+  height: 30.5px;
+  position: relative;
+}
+.website-image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-3) 0 0;
+}
+.website-development-service {
+  position: relative;
+  line-height: 38.68px;
+  white-space: nowrap;
+}
+.website-content {
+  background-color: var(--color-darkslategray);
+  overflow: hidden;
+  padding: var(--padding-2xs-5) var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-mini-1);
+}
+.website-content,
+.website-service {
+  /* width: 80%; */
+  border-radius: 11.33px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-childssl {
+  width: 26.1px;
+  height: 33.7px;
+  position: relative;
+}
+.service-icons-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-6) 0 0;
+}
+.app-saas {
+  position: relative;
+  line-height: 38.68px;
+  white-space: nowrap;
+}
+
+.services22 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+/* .service-icons1 {
+  border-radius: 11.33px;
+  background-color: var(--color-darkslategray);
+  overflow: hidden;
+  padding: var(--padding-2xs-5) var(--padding-7xl);
+  box-sizing: border-box;
+  gap: var(--gap-mini-1);
+} */
+.services22 {
+  gap: var(--gap-2xl-3);
+  text-align: center;
+  font-size: var(--font-size-3xl-7);
+  color: var(--color-white);
+  font-family: var(--font-helvetica);
+}
+
+@media screen and (max-width: 850px) {
+  .services22 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+
+}

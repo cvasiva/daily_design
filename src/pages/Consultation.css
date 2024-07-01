@@ -1,0 +1,430 @@
+.home_card6_bg{
+    background: #000;
+}
+
+.Together_handbook {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+.Consultation_handbook {
+    background: #FFF;
+    width: 1134px;
+    /* height: 845px; */
+    padding: 2rem 3rem;
+}
+
+.Free_handbook {
+    color: #2B3674;
+    font-family: 'inter';
+    font-size: 40.901px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63.624px;
+    /* 155.556% */
+    letter-spacing: -0.818px;
+}
+
+.hearhandbook {
+    color: #949494;
+    font-family: DM Sans;
+    font-size: 18.178px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 18.178px */
+    letter-spacing: -0.364px;
+}
+
+.name_handbook {
+    color: #2B3674;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 18px */
+    letter-spacing: -0.36px;
+}
+
+.handbook_input {
+    border-radius: 8.178px;
+    border: 1.136px solid #C4C7CE;
+    width: 100%;
+    padding-left: 10px;
+    /* padding: 1rem; */
+    color: var(--Secondary-Grey-600, #A3AED0);
+    font-family: inter;
+    font-size: 18.906px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 15.906px */
+    letter-spacing: -0.318px;
+    height: 2.5rem;
+}
+
+.handbook_submit {
+    border-radius: 8.178px;
+    background: var(--primary-purple-blue-500-primary-color, #4318FF);
+    color: #FFF;
+    width: 100%;
+    border: none;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 17px */
+}
+
+.imagehandbook_syle {
+    width: 120%;
+}
+
+.Consultation1_faq {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+}
+
+
+.your_faq {
+    border-radius: 12px;
+    background: conic-gradient(from 21deg at 60.16% 50.15%, #892B85 0deg, #28005E 360deg);
+    height: 30vh;
+    display: grid;
+    flex: 1 1;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    padding: 0.5rem 2.5rem;
+    height: none;
+}
+
+.Call_faq_style {
+    border-radius: 7.901px;
+    background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
+    color: #050427;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 16.408px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    width: 70%;
+    line-height: 100%;
+}
+
+.Call_faq_style:hover {
+    transition: 0.5s ease;
+    transform: translate(0, -5px);
+    border-radius: 8px;
+    background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
+    box-shadow: 0px 18px 88px -4px rgba(24, 39, 75, 0.14), 0px 8px 28px -6px rgba(24, 39, 75, 0.12);
+    color: #050427;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 16.408px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    width: 70%;
+    line-height: 100%;
+}
+
+.Digital_faq {
+    text-align: start;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 32.114px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.461px;
+}
+
+.Digital_faq1 {
+    color: #FFE359;
+    font-family: 'Inter';
+    font-size: 32.114px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.461px;
+}
+
+.letspaddingcrete {
+    padding: 8rem 0rem;
+}
+
+.laptogaqimage_style {
+    display: block;
+    width: 150%;
+    margin-top: -10%;
+    /* height: 30vh; */
+}
+
+.laptogaqimage_style1 {
+    display: none;
+    width: 150%;
+    margin-top: -10%;
+    /* height: 30vh; */
+}
+
+.top_call_back {
+    padding-top: 26%;
+    text-align: center;
+}
+
+.callback_flexfaq {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.pading_callfaq {
+    padding: 2rem 0rem;
+}
+
+.laptogaqimage_bg {
+    background: url("../Images/AboutImages/contact_bg.png");
+    background-blend-mode: overlay, normal;
+    width: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.Information_font {
+    color: #FFF;
+    text-align: start;
+    font-variant-numeric: slashed-zero;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.241px;
+    padding-top: 10%;
+}
+
+.withinfont {
+    color: rgba(231, 236, 251, 0.80);
+    font-variant-numeric: slashed-zero;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: start;
+    padding-top: 3%;
+}
+
+.BsFillTelefont {
+    color: #FFF;
+    /* padding: 0.5rem; */
+    text-align: start;
+    font-family: 'Inter';
+    font-size: 15.8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 19.2px */
+}
+
+@media (max-width: 850px) {
+    .laptogaqimage_bg {
+        background: #2c2762;
+        background-blend-mode: overlay, normal;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* height: 100vh; */
+    }
+    .Together_handbook {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.55px;
+    }
+
+    .Consultation_handbook {
+        background: #FFF;
+        width: 100%;
+        /* height: 845px; */
+        padding: 2rem 0.5rem;
+    }
+
+    .Free_handbook {
+        color: #2B3674;
+        font-family: 'inter';
+        font-size: 25.901px;
+        font-style: normal;
+        font-weight: 700;
+        /* line-height: 63.624px; */
+        /* 155.556% */
+        /* letter-spacing: -0.818px; */
+    }
+
+    .hearhandbook {
+        color: #949494;
+        font-family: DM Sans;
+        font-size: 11.178px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        /* 18.178px */
+        letter-spacing: -0.364px;
+    }
+
+    .name_handbook {
+        color: #2B3674;
+        font-family: 'Inter';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+        /* 18px */
+        letter-spacing: -0.36px;
+    }
+
+    .handbook_input {
+        border-radius: 6.178px;
+        border: 1.136px solid #C4C7CE;
+        width: 100%;
+        padding-left: 10px;
+        /* padding: 1rem; */
+        color: var(--Secondary-Grey-600, #A3AED0);
+        font-family: inter;
+        font-size: 12.906px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        /* 15.906px */
+        letter-spacing: -0.318px;
+    }
+
+    .handbook_submit {
+        border-radius: 18.178px;
+        background: var(--primary-purple-blue-500-primary-color, #4318FF);
+        color: #FFF;
+        width: 50%;
+        border: none;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        /* 17px */
+    }
+
+    .imagehandbook_syle {
+        width: 100%;
+
+    }
+
+    .Consultation1_faq {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0rem;
+    }
+
+    .letspaddingcrete {
+        padding: 5rem 0rem 0rem 0rem;
+    }
+
+    .your_faq {
+        border-radius: 13.329px;
+        background: linear-gradient(205deg, #892B85 45.86%, #28005E 72.96%);
+        /* height: 100%; */
+        display: flex;
+        flex-direction: column;
+        /* flex: 1 1; */
+        /* grid-template-rows: 50% 50%; */
+        justify-content: center;
+        padding: 4rem 1rem 0rem 1rem;
+        height: 65vh;
+    }
+
+    .callback_flexfaq {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .laptogaqimage_style {
+        display: block;
+        width: 100%;
+        margin-top: 4%;
+        /* height: 30vh; */
+    }
+
+    .laptogaqimage_style1 {
+        display: block;
+        width: 100%;
+        margin-top: 0%;
+        /* height: 30vh; */
+    }
+
+    .pading_callfaq {
+        padding: 1rem 0rem;
+    }
+
+    .Call_faq_style {
+        border-radius: 7.901px;
+        background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
+        color: #050427;
+        text-align: center;
+        font-family: Inter;
+        font-size: 15.225px;
+        font-style: normal;
+        font-weight: 700;
+        border: none;
+        width: 50%;
+        line-height: 100%;
+        /* 23.408px */
+    }
+
+    .top_call_back {
+        padding-top: 6%;
+        text-align: center;
+    }
+
+    .Digital_faq {
+        text-align: center;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 28.723px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.287px;
+    }
+
+    .Digital_faq1 {
+        color: #FFE359;
+        font-family: Inter;
+        font-size: 28.723px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.287px;
+    }
+
+}

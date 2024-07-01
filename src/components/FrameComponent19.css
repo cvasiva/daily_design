@@ -1,0 +1,46 @@
+.image-icon25 {
+  height: 35rem;
+  width: 24.625rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -31.625rem;
+  right: -2.906rem;
+  object-fit: cover;
+}
+.devices-apple-iphone-12-mi,
+.devices-apple-iphone-12-mi1,
+.devices-apple-iphone-12-mi2,
+.devices-apple-iphone-12-mi3,
+.devices-apple-iphone-12-mi4 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 16.75rem;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-width: 16.438rem;
+  min-height: 34rem;
+}
+.devices-apple-iphone-12-mi-parent,
+.image-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+/* .devices-apple-iphone-12-mi-parent {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-lgi-6);
+  z-index: 1;
+} */
+.image-parent2 {
+  width: 88.656rem;
+  margin: 0 !important;
+  position: absolute;
+  top: 38.125rem;
+  left: 2.938rem;
+  justify-content: flex-start;
+}

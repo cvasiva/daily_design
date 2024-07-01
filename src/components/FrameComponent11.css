@@ -1,0 +1,64 @@
+.starts-from {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 5.563rem;
+  z-index: 1;
+}
+.starts-from-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-47xl) 0 var(--padding-49xl);
+}
+.button-child {
+  height: 3.25rem;
+  width: 13.938rem;
+  position: relative;
+  border-radius: var(--br-10xs);
+  border: 3px solid var(--color-mediumslateblue-200);
+  box-sizing: border-box;
+  display: none;
+}
+.start-my-design {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-sora);
+  color: var(--color-mediumslateblue-200);
+  text-align: center;
+  display: inline-block;
+  min-width: 7.125rem;
+  z-index: 1;
+}
+.button,
+.frame-parent71 {
+  display: flex;
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 3px solid var(--color-mediumslateblue-200);
+  padding: var(--padding-smi) var(--padding-35xl);
+  background-color: transparent;
+  border-radius: var(--br-10xs);
+  flex-direction: row;
+  align-items: flex-start;
+  z-index: 1;
+}
+.button:hover {
+  background-color: var(--color-dodgerblue-400);
+  border: 3px solid var(--color-dodgerblue-200);
+  box-sizing: border-box;
+}
+.frame-parent71 {
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-9xs);
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-montserrat);
+}

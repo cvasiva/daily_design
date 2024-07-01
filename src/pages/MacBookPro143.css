@@ -1,0 +1,512 @@
+.macbook-pro-14-62-child {
+  align-self: stretch;
+  height: 503px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(6, 19, 25, 0), #061319);
+  display: none;
+  z-index: 0;
+}
+.flotcolor{
+  background-color: #009d51;
+}
+
+.bg2-1-1,
+.rectangle-icon {
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.services-were-masters-parent{
+  text-align: center;
+}
+.bg2-1-1 {
+  width: 100%;
+  height: 1186px;
+  position: absolute;
+  margin: 0 !important;
+  top: 2107px;
+  right: 0;
+  left: 0;
+  flex-shrink: 0;
+}
+.rectangle-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  z-index: 2;
+}
+.clutch-logo-background {
+  height: 222.3px;
+  position: absolute;
+  left: 0;
+  margin-top: 30%;
+  /* top: 10%; */
+  /* width: 104px; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  /* padding: 0 0 5.3px; */
+  box-sizing: border-box;
+}
+
+
+.macbook-pro-14-62-item {
+  width: 347.6px;
+  position: relative;
+  max-height: 100%;
+  display: none;
+  max-width: 100%;
+  z-index: 8;
+}
+.cfe6d56e2ae259ae5b08c-hexagon-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.design-background {
+  height: 882.3px;
+  width: 102px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 694.3px 0 0;
+  box-sizing: border-box;
+}
+.daily-design-highlight-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-ghostwhite-400);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.what-makes-daily {
+  margin: 0;
+}
+.best-for-business {
+  font-family: var(--font-sora);
+}
+.the-best-for-business {
+  margin: 0;
+}
+.what-makes-daily-container1 {
+  width: 100%;
+}
+.what-makes-daily-container {
+  position: relative;
+  /* top: 85.5px;
+  left: 60.8px; */
+  padding: 1rem 0;
+  font-size: var(--font-size-19xl-9);
+  line-height: 140%;
+  color: var(--color-gray-800);
+  display: flex;
+  align-items: center;
+  /* width: 494.2px;
+  height: 88.3px; */
+  z-index: 1;
+  font-family: var(--font-sora);
+}
+.best-icons,
+.horizontal-divider {
+  position: absolute;
+  top: 183.9px;
+  left: 60.8px;
+  width: 1152.1px;
+  height: 0.8px;
+  z-index: 2;
+}
+.best-icons {
+  top: 285.2px;
+  left: 61.6px;
+  width: 1149.3px;
+}
+.best-icons1,
+.best-icons2,
+.best-icons3,
+.best-icons4,
+.best-icons5,
+.best-icons6 {
+  position: absolute;
+  top: 442.4px;
+  left: 61.6px;
+  width: 1149.3px;
+  height: 0.8px;
+  z-index: 2;
+}
+.best-icons2,
+.best-icons3,
+.best-icons4,
+.best-icons5,
+.best-icons6 {
+  top: 603.6px;
+}
+.best-icons3,
+.best-icons4,
+.best-icons5,
+.best-icons6 {
+  top: 760.8px;
+}
+.best-icons4,
+.best-icons5,
+.best-icons6 {
+  top: 363.8px;
+}
+.best-icons5,
+.best-icons6 {
+  top: 521px;
+}
+.best-icons6 {
+  top: 682.2px;
+}
+.individual-design-manager {
+  padding: 1.2rem 0;
+  position: relative;
+  line-height: 37.4px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  font-size: 22px;
+}
+.personalized-attention,
+.support {
+  top: 391.3px;
+}
+.personalized-attention {
+  top: 552.6px;
+}
+.in-house-designers {
+  top: 709.8px;
+  font-weight: 500;
+  width: 530.7px;
+}
+.award-winning-designs,
+.cost-effective-pricing-in,
+.full-stack-developers,
+.in-house-designers,
+.proven-high-roi {
+  position: absolute;
+  left: 60.8px;
+  line-height: 37.4px;
+  display: flex;
+  align-items: center;
+  height: 37.3px;
+  z-index: 1;
+}
+.award-winning-designs {
+  top: 312.7px;
+  font-weight: 500;
+  width: 665.2px;
+}
+.cost-effective-pricing-in,
+.full-stack-developers,
+.proven-high-roi {
+  top: 469.9px;
+  width: 530.7px;
+}
+.full-stack-developers,
+.proven-high-roi {
+  top: 631.2px;
+  font-weight: 500;
+}
+.full-stack-developers {
+  top: 788.3px;
+  width: 567.1px;
+}
+.fbf63a47311285c2410df-starpng-icon {
+  position: absolute;
+  top: 103.3px;
+  right: -103.7px;
+  width: 133px;
+  height: 218px;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 1;
+  display: block;
+}
+.daily-design-highlight {
+  height: 928.5px;
+  width: 100%;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-ghostwhite-400);
+  max-width: calc(100% - 345px);
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+}
+.design-background-parent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0rem;
+  box-sizing: border-box;
+  gap: 16.4px;
+  max-width: 100%;
+}
+.macbook-pro-14-62-inner {
+  width: 4.2px;
+  height: 4.2px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--web-primary-dark);
+  display: none;
+  z-index: 8;
+}
+.ellipse-div,
+.macbook-pro-14-62-child1,
+.macbook-pro-14-62-child2,
+.macbook-pro-14-62-child3,
+.macbook-pro-14-62-child4 {
+  width: 4.2px;
+  height: 4.2px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--web-primary-dark);
+  display: none;
+  z-index: 9;
+}
+.macbook-pro-14-62-child1,
+.macbook-pro-14-62-child2,
+.macbook-pro-14-62-child3,
+.macbook-pro-14-62-child4 {
+  z-index: 10;
+}
+.macbook-pro-14-62-child2,
+.macbook-pro-14-62-child3,
+.macbook-pro-14-62-child4 {
+  z-index: 11;
+}
+.macbook-pro-14-62-child3,
+.macbook-pro-14-62-child4 {
+  z-index: 12;
+}
+.macbook-pro-14-62-child4 {
+  z-index: 13;
+}
+.at-design-monks {
+  width: 1199.9px;
+  position: relative;
+  line-height: 28.05px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.design-monks-description-conta,
+.recent-projects-container {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.design-monks-description-conta {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 72.6px 66px;
+  box-sizing: border-box;
+  font-size: var(--font-size-lg-7);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-manrope);
+}
+.recent-projects-container {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+/* .desktop-1-icon {
+  width: 100%;
+  height: 742px;
+  position: absolute;
+  margin: 0 !important;
+  top: 124px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+} */
+.macbook-pro-14-62-child5,
+.rectangle-div {
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+}
+.rectangle-div {
+  width: 1555.6px;
+  height: 77px;
+  max-width: 100%;
+  z-index: 18;
+}
+.macbook-pro-14-62-child5 {
+  width: 8.9px;
+  height: 26.8px;
+  z-index: 19;
+}
+.design-consultation-container,
+.macbook-pro-14-62 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.design-consultation-container {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 57.5px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.macbook-pro-14-62 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-3xl-7);
+  color: var(--color-gray-1300);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1300px) {
+  .design-monks-description-conta {
+    padding-left: 33px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .individual-design-manager {
+    padding: 1.2rem 0;
+    position: relative;
+    line-height: 37.4px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    font-size: 22px;
+  }
+  .design-background {
+    padding-top: 451px;
+    box-sizing: border-box;
+  }
+  .design-background-parent {
+    padding-bottom: 41px;
+    box-sizing: border-box;
+  }
+  .daily-design-highlight {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    position: relative;
+    background-color: var(--color-ghostwhite-400);
+    max-width: calc(100% - 5px);
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0.5rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .clutch-logo-background {
+    height: 130.3px;
+    position: absolute;
+    left: 0;
+    margin-top: 100%;
+    top: -53%;
+    /* width: 104px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    /* padding: 0 0 5.3px; */
+    box-sizing: border-box;
+  }
+
+  .design-background {
+    display: none;
+  }
+  .what-makes-daily-container {
+    font-size: var(--font-size-12xl);
+    line-height: 44px;
+  }
+  .daily-design-highlight {
+    max-width: 100%;
+  }
+  .design-background-parent {
+    /* padding-left: var(--padding-xl);
+    padding-bottom: var(--padding-8xl); */
+    box-sizing: border-box;
+  }
+  .design-consultation-container {
+    padding-bottom: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+  .daily-design-highlight {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    position: relative;
+    background-color: var(--color-ghostwhite-400);
+    /* max-width: calc(100% - 118px); */
+    display: none;
+    justify-content: space-around;
+    padding: 1rem 0.5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+
+  .fbf63a47311285c2410df-starpng-icon {
+    position: absolute;
+    top: 103.3px;
+    right: -103.7px;
+    width: 133px;
+    height: 218px;
+    overflow: hidden;
+    object-fit: contain;
+    z-index: 1;
+    display: none;
+  }
+  .clutch-logo-background {
+    height: 100.3px;
+    position: absolute;
+    left: 0;
+    margin-top: 100%;
+    top: -3%;
+    /* width: 104px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    /* padding: 0 0 5.3px; */
+    box-sizing: border-box;
+  }
+
+  .design-background {
+    padding-top: 293px;
+    box-sizing: border-box;
+  }
+  .what-makes-daily-container {
+    font-size: var(--font-size-4xl);
+    line-height: 33px;
+  }
+
+  .individual-design-manager {
+    font-size: var(--font-size-lg);
+    line-height: 30px;
+  }
+  .design-monks-description-conta {
+   display: none;
+  }
+}

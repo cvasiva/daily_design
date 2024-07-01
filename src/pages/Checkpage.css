@@ -1,0 +1,280 @@
+.frame-child12 {
+    align-self: stretch;
+    height: 969px;
+    position: relative;
+    background-color: var(--color-gray-1400);
+    display: none;
+  }
+  .background-items {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 740px;
+    right: 0;
+    bottom: -740px;
+    left: 0;
+    background-color: var(--color-gray-1000);
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+    z-index: 3;
+  }
+  .recent-projects {
+    font-weight: 600;
+  }
+  .checkout-our-recent-container {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -1.62px;
+    line-height: 49px;
+    z-index: 4;
+  }
+  .serving-customized-needs1 {
+    width: 100%;
+    position: relative;
+    line-height: 25.1px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    z-index: 4;
+  }
+  .recent-projects-subtitle-conta {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+    font-size: var(--font-size-mid-8);
+    font-family: var(--font-sora);
+  }
+  .checkout-our-recent-projects-parent {
+    width: 849.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-5xs-7);
+    max-width: 100%;
+  }
+  .recent-projects-title-containe {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-11xs) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+
+  .devices-apple-iphone-12-mi3,
+  .devices-apple-iphone-12-mi4{
+    display: block;
+  }
+
+  .devices-apple-iphone-12-mi,
+  .devices-apple-iphone-12-mi1,
+  .devices-apple-iphone-12-mi2,
+  .devices-apple-iphone-12-mi3,
+  .devices-apple-iphone-12-mi4 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 271px;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    min-width: 266px;
+    min-height: 550px;
+  }
+  .devices-apple-iphone-12-mi-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-lgi-8);
+    z-index: 4;
+  }
+  .recent-projects-content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-26xl) var(--padding-18xl) var(--padding-5xl-7)
+      var(--padding-19xl);
+    box-sizing: border-box;
+    position: relative;
+    gap: var(--gap-19xl-1);
+    max-width: 100%;
+  }
+  .vector-icon3,
+  .view-portfolio {
+    position: relative;
+    max-width: 100%;
+    z-index: 3;
+  }
+  .view-portfolio {
+    letter-spacing: -1.67px;
+    line-height: 141px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #ffda91, #e6e2bd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+  .vector-icon3 {
+    align-self: stretch;
+    flex: 1;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .view-portfolio-button-icon-con,
+  .view-portfolio-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .view-portfolio-button-icon-con {
+    height: 104.3px;
+    width: 115.4px;
+    flex-direction: column;
+    padding: var(--padding-17xl-1) 0 0;
+    box-sizing: border-box;
+  }
+  .view-portfolio-parent {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap-38xl-3);
+    max-width: 100%;
+    cursor: pointer;
+  }
+  .rectangle-parent5,
+  .view-portfolio-button-containe {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .view-portfolio-button-containe {
+    width: 1070.7px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    text-align: left;
+    font-size: var(--font-size-81xl-1);
+    font-family: var(--font-sora);
+  }
+  .rectangle-parent5 {
+    align-self: stretch;
+    background-color: var(--color-gray-1400);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-51xl);
+    gap: var(--gap-lg);
+    z-index: 2;
+    text-align: center;
+    font-size: var(--font-size-23xl-1);
+    color: var(--color-white);
+    font-family: var(--font-syne);
+    position: relative;
+    /* bottom: -5rem; */
+  }
+  @media screen and (max-width: 1125px) {
+    .rectangle-parent5 {
+      padding-bottom: var(--padding-26xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .devices-apple-iphone-12-mi3,
+    .devices-apple-iphone-12-mi4{
+      display: none;
+    }
+    .devices-apple-iphone-12-mi,
+    .devices-apple-iphone-12-mi1,
+    .devices-apple-iphone-12-mi2,
+    .devices-apple-iphone-12-mi3,
+    .devices-apple-iphone-12-mi4 {
+      align-self: stretch;
+      flex: 1;
+      position: relative;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+      object-fit: cover;
+      min-width: 100%;
+      min-height: 550px;
+    }
+    .view-portfolio-parent {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: var(--gap-38xl-3);
+      max-width: 100%;
+    }
+    .view-portfolio-button-containe {
+      width: 100%;
+      flex-direction: row;
+      justify-content: center;
+      padding: 0 var(--padding-xl);
+      text-align: center;
+      font-size: var(--font-size-81xl-1);
+      font-family: var(--font-sora);
+    }
+    .checkout-our-recent-container {
+      font-size: var(--font-size-15xl);
+      line-height: 39px;
+    }
+    .recent-projects-content {
+      gap: var(--gap-lgi);
+      padding-top: var(--padding-10xl);
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .view-portfolio {
+      font-size: var(--font-size-31xl);
+      line-height: 84px;
+    }
+    .rectangle-parent5 {
+      padding-bottom: var(--padding-10xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .view-portfolio-button-icon-con {
+      height: 58.3px;
+      width: 40.4px;
+      flex-direction: column;
+      padding: 0 0 0;
+      box-sizing: border-box;
+    }
+    .checkout-our-recent-container {
+      font-size: var(--font-size-6xl);
+      line-height: 29px;
+    }
+    .view-portfolio {
+      font-size: var(--font-size-11xl);
+      line-height: 56px;
+    }
+    .view-portfolio-parent {
+      gap: var(--gap-10xl);
+    }
+    .recent-projects-subtitle-conta {
+      align-self: stretch;
+      display: none;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+      font-size: var(--font-size-mid-8);
+      font-family: var(--font-sora);
+    }
+  }
+  

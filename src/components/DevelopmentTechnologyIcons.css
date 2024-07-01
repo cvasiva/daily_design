@@ -1,0 +1,78 @@
+.divgroup-icon {
+    height: 108.9px;
+    flex: 1;
+    position: relative;
+    border-radius: 5.67px;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    
+    z-index: 1;
+  }
+  .development-technology-logos {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-sm) 0 var(--padding-smi);
+  }
+  .visual-studio {
+    align-self: stretch;
+    position: relative;
+    line-height: 37.4px;
+    flex-shrink: 0;
+    font-size: var(--font-size-lgi-4);
+    z-index: 1;
+  }
+  .development-technology-icons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs-8);
+    min-width: 140px;
+    max-width: 143px;
+    text-align: center;
+    font-size: var(--font-size-lgi-4);
+    color: var(--color-gray-1300);
+    font-family: var(--font-inter);
+  }
+
+  @media screen and (max-width: 450px) {
+    .development-technology-icons {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: var(--gap-5xs-8);
+      min-width: 90px;
+      max-width: 143px;
+      text-align: center;
+      font-size: var(--font-size-lgi-4);
+      color: var(--color-gray-1300);
+      font-family: var(--font-inter);
+    }
+    .divgroup-icon {
+      height: 60px;
+      flex: 1;
+      position: relative;
+      border-radius: 5.67px;
+      max-width: 100%;
+      overflow: hidden;
+      flex-shrink: 0;
+      
+      z-index: 1;
+    }
+    .visual-studio {
+      align-self: stretch;
+      position: relative;
+      line-height: 27.4px;
+      flex-shrink: 0;
+      font-size: 14px;
+      z-index: 1;
+    }
+  }
+  

@@ -1,0 +1,80 @@
+.expert-partner {
+  color: var(--color-mediumslateblue-100);
+}
+.your-website-expert-container {
+  margin: 0;
+  align-self: stretch;
+  height: 4.313rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -2px;
+  line-height: 3.75rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.years-experienced-professional1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 1.625rem;
+  font-weight: 600;
+  font-family: var(--font-sora);
+  color: var(--neutral-colors-100);
+  text-align: center;
+}
+.frame-wrapper37,
+.years-experienced-professional-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.years-experienced-professional-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0.956rem var(--padding-lg) var(--padding-base-7);
+  background-color: transparent;
+  width: 27.75rem;
+  border-radius: var(--br-6xs);
+  background: linear-gradient(90deg, #204bf2 9.31%, #458dec 52.46%, #6ed6e5);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frame-wrapper37 {
+  width: 67.875rem;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.your-website-expert-partner-parent {
+  width: 68.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-33xl);
+  color: var(--color-gray-1300);
+  font-family: var(--font-syne);
+}
+@media screen and (max-width: 750px) {
+  .your-website-expert-container {
+    font-size: var(--font-size-23xl);
+    line-height: 3rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .your-website-expert-container {
+    font-size: var(--font-size-12xl);
+    line-height: 2.25rem;
+  }
+}

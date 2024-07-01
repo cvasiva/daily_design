@@ -1,0 +1,189 @@
+.symbol26 {
+  width: 1.194rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.819rem;
+  right: -1.956rem;
+  line-height: 1.176rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.194rem;
+}
+.link20 {
+  height: 2.825rem;
+  width: 0.056rem;
+  border-radius: 22.58px;
+  border: 0.9px solid var(--color-darkslategray-400);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.symbol27 {
+  width: 1.344rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.819rem;
+  right: -2.037rem;
+  line-height: 1.176rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link21 {
+  height: 2.825rem;
+  width: 0.056rem;
+  border-radius: 22.58px;
+  border: 0.9px solid var(--color-darkslategray-400);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.symbol28 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0.819rem;
+  right: -1.925rem;
+  line-height: 1.176rem;
+  display: inline-block;
+  min-width: 0.938rem;
+}
+.link22 {
+  height: 2.825rem;
+  width: 0.056rem;
+  border-radius: 22.58px;
+  border: 0.9px solid var(--color-darkslategray-400);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.link-icon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  transform: scale(35.556);
+}
+.symbol29,
+.wrapper-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-link {
+  height: 2.825rem;
+  width: 0.056rem;
+  position: relative;
+  border-radius: 22.58px;
+  min-height: 2.813rem;
+}
+.symbol29 {
+  width: 1.05rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.819rem;
+  right: -1.887rem;
+  line-height: 1.176rem;
+  min-width: 1.05rem;
+}
+.link23,
+.symbol30 {
+  position: relative;
+  display: flex;
+}
+.link23 {
+  height: 2.825rem;
+  width: 0.056rem;
+  border-radius: 22.58px;
+  border: 0.9px solid var(--color-darkslategray-400);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.symbol30 {
+  width: 1.05rem;
+  font-size: var(--font-size-lg-8);
+  line-height: 1.176rem;
+  font-family: var(--font-font-awesome-5-brands);
+  color: var(--neutral-colors-100);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 1.05rem;
+}
+.footer-social,
+.horizontalborder,
+.link24 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.link24 {
+  cursor: pointer;
+  border: 0.9px solid var(--color-darkslategray-400);
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs)
+    var(--padding-mini-4);
+  background-color: transparent;
+  width: 2.825rem;
+  border-radius: 22.58px;
+  justify-content: flex-start;
+}
+.link24:hover {
+  background-color: var(--color-dimgray-800);
+  border: 0.9px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+}
+.footer-social,
+.horizontalborder {
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.horizontalborder {
+  width: 70rem;
+  border-top: 0.9px solid var(--color-darkslategray-400);
+  justify-content: center;
+  padding: 1rem 0rem;
+  gap: var(--gap-34xl-7);
+  /* debug_commit: 1de1738; */
+  z-index: 1;
+  font-size: var(--font-size-mini-4);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-manrope);
+}
+.footer-social {
+  /* width: 92rem; */
+  justify-content: center;
+  /* padding: 0 var(--padding-xl); */
+  margin-top: -5.844rem;
+  text-align: center;
+  font-size: var(--font-size-lg-8);
+  color: var(--neutral-colors-100);
+  font-family: var(--font-font-awesome-5-brands);
+}
+@media screen and (max-width: 850px) {
+  .horizontalborder {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .horizontalborder {
+    gap: var(--gap-8xl);
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}

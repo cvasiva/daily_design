@@ -1,0 +1,77 @@
+.group-2-9-finejpg1,
+.group-3-9-quick-2jpg1,
+.group-4-9-meatjpg1,
+.group-5-9-backryjpg1 {
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 35.563rem;
+}
+.group-2-9-finejpg1,
+.group-3-9-quick-2jpg1 {
+  width: 18.2rem;
+  flex-shrink: 0;
+}
+.group-4-9-meatjpg1,
+.group-5-9-backryjpg1 {
+  flex: 1;
+  max-width: 100%;
+  min-width: 11.813rem;
+}
+.group-5-9-backryjpg1 {
+  z-index: 1;
+  margin-left: -0.007rem;
+}
+.group-4-9-meatjpg-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 23.625rem;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.group-6-9-fruitsjpg {
+  align-self: stretch;
+  width: 18.2rem;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 35.563rem;
+}
+.container12,
+.project-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.container12 {
+  flex: 1;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 20px;
+}
+.project-container {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xl);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 850px) {
+  .group-4-9-meatjpg-parent {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .group-5-9-backryjpg1 {
+    margin-left: 0;
+  }
+}

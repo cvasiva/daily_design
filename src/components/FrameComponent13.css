@@ -1,0 +1,215 @@
+.mac-o-s-header-child {
+  width: 71.063rem;
+  height: 43.938rem;
+  position: relative;
+  border-radius: 20.54px;
+  background-color: var(--color-dimgray-600);
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.background-icon2,
+.left-icon {
+  max-width: 100%;
+  overflow: hidden;
+}
+.background-icon2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+}
+.left-icon {
+  align-self: stretch;
+  height: 0.938rem;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.left-wrapper {
+  width: 10.469rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.vector-icon36 {
+  width: 0.875rem;
+  height: 1.063rem;
+  position: relative;
+}
+.website-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.union-icon {
+  height: 0;
+  width: 0;
+  position: relative;
+  display: none;
+}
+.medium-s-icon {
+  width: 0.556rem;
+  height: 0.813rem;
+  position: relative;
+}
+.medium-s-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.sitenamecom {
+  position: relative;
+  display: inline-block;
+  min-width: 5.25rem;
+}
+.frame-parent70,
+.url {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent70 {
+  gap: var(--gap-7xs);
+}
+.refreshalt-icon {
+  width: 0.581rem;
+  height: 0.706rem;
+  position: relative;
+}
+.refreshalt-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-2);
+}
+.website-title {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslategray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-6xs-5) var(--padding-6xs) var(--padding-7xs-5)
+    var(--padding-104xl-5);
+  box-sizing: border-box;
+  min-width: 6.75rem;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.website-icons-parent {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-lg);
+}
+.center,
+.center-wrapper,
+.website-icons-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.center {
+  width: 24.5rem;
+  flex-direction: row;
+  z-index: 1;
+}
+.center-wrapper {
+  width: 28.719rem;
+  flex-direction: column;
+}
+.right-icon {
+  align-self: stretch;
+  height: 1.188rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.right-wrapper {
+  width: 6.156rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.mac-o-s-header-item,
+.macos-11-safari-header-dark {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+}
+.macos-11-safari-header-dark {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 3;
+}
+.mac-o-s-header-item {
+  height: 40.488rem;
+  border-radius: 13.07px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 2;
+  margin-top: -1.938rem;
+}
+.mac-o-s-header,
+.mac-o-s-header-wrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mac-o-s-header {
+  width: 71.063rem;
+  border-radius: 20.54px;
+  background-color: var(--color-dimgray-600);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0.987rem var(--padding-lg-2) var(--padding-base);
+  z-index: 1;
+}
+.mac-o-s-header-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-6xl);
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--neutral-colors-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .website-title {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .website-icons-parent {
+    flex-wrap: wrap;
+  }
+}

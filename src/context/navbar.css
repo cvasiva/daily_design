@@ -1,0 +1,226 @@
+.nav_bg {
+    background: #FFF;
+}
+
+
+
+.navdisplay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_bg12 {
+    background: #FFF;
+}
+
+.nav_bgfont {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-bottom: 2px solid #FFD851;
+}
+
+/* .active {
+    background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
+} */
+
+/* .nav_bg1 {
+    background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
+} */
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav13 {
+    background: transparent;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    padding: 1.5rem 0rem 0rem 0rem;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.nav13.nav12 {
+    background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
+    color: white;
+    position: fixed;
+    z-index: 1000;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.nav1 .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.nav1 .ul1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 0.5rem;
+}
+
+.nav1 .ul1 .li1 {
+    list-style: none;
+}
+
+.nav1 .ul1 .li1 a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    /* border-radius: 0.5rem; */
+}
+
+/* nav ul li a:not(.active):hover {
+    background-color:#172554 ;
+} */
+
+.nav1 .menu {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+.nav1 .menu span {
+    height: 0.4rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.2rem;
+}
+
+/* .nav1 .ul1 .li1 a:hover,
+.nav1 .ul1 .li1 span {
+    border-color: white;
+    border-left-color: black;
+    border-top-color: black;
+    color: white;
+}
+
+.nav1 .ul1 .li1 a:active,
+.nav1 .ul1 .li1 span {
+    border-color: white;
+    border-left-color: black;
+    border-top-color: black;
+    color: white;
+    background-color: #adadad;
+} */
+
+.nav_bgfont1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.mobilenone {
+    display: block;
+}
+
+.mobilenone1 {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobilenone {
+        display: none;
+    }
+
+    .mobilenone1 {
+        display: block;
+    }
+
+    .nav1 .menu {
+        display: flex;
+    }
+
+    .nav1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav1 .ul1 {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+
+    .nav1 .ul1.open {
+        display: flex;
+    }
+
+    .nav1 .ul1 .li1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav1 .ul1 .li1 a {
+        margin: 0.2rem 0.5rem;
+    }
+
+    .nav13 {
+        background: linear-gradient(47deg, rgba(69, 52, 114, 0.87) 1.8%, rgba(47, 35, 90, 0.00) 39.32%), linear-gradient(245deg, rgba(97, 80, 165, 0.75) -4.52%, rgba(99, 82, 168, 0.00) 33.5%), linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
+        color: white;
+        position: fixed;
+        z-index: 1;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+
+    .nav_bgfont {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        border-bottom: none;
+        /* width: 50%; */
+    }
+
+}
+
+@media (max-width: 300px) {
+    .image_padding {
+        padding: 0;
+    }
+}
+
+.Contact_button_nav {
+    border-radius: 4px;
+    background: #3DBF42;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14.812px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    line-height: 19.966px;
+}

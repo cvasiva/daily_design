@@ -1,0 +1,255 @@
+.highlight-content-item,
+.others {
+    align-self: stretch;
+    position: relative;
+}
+
+.highlight-content-item {
+    height: 783.5px;
+    background-color: var(--color-lavender);
+    display: none;
+}
+
+.others {
+    line-height: 44px;
+    z-index: 2;
+    padding-top: 1rem;
+}
+
+.business_plan {
+    display: none;
+}
+
+.group-icon10,
+.group-icon3,
+.group-icon4,
+.group-icon5,
+.group-icon6,
+.group-icon7,
+.group-icon8,
+.group-icon9 {
+    width: 33.2px;
+    height: 33.2px;
+    position: relative;
+    z-index: 2;
+}
+
+.group-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-28xl);
+}
+
+.highlight-content-inner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+
+.highlight-content1 {
+    position: relative;
+    /* top: 78.6px;
+    left: 986px; */
+    background-color: var(--color-lavender);
+    width: 226.9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs-3) 0 var(--padding-24xl);
+    box-sizing: border-box;
+    gap: 4.8rem;
+    z-index: 1;
+    text-align: center;
+    font-size: var(--font-size-11xl-8);
+    color: var(--color-gray-800);
+    font-family: var(--font-sora);
+}
+
+.highlight-content-child {
+    width: 226.9px;
+    height: 783.5px;
+    position: relative;
+    background-color: var(--color-honeydew);
+    display: none;
+}
+
+.dailydesign1d {
+    position: relative;
+    top: 0;
+    /* left: 5.4px; */
+    line-height: 48.8px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30.1px;
+    z-index: 2;
+}
+
+.highlight-icon-child {
+    position: absolute;
+    top: 0;
+    left: 2.8px;
+    background-color: var(--color-honeydew);
+    width: 9.3px;
+    height: 27.8px;
+    z-index: 3;
+}
+
+.footer-background-icon {
+    position: absolute;
+    top: 1.8px;
+    left: 0;
+    width: 15.8px;
+    height: 24.9px;
+    z-index: 4;
+}
+
+.highlight-icon {
+    position: absolute;
+    top: 2.3px;
+    left: 0;
+    width: 15.8px;
+    height: 27.8px;
+}
+
+.brand-highlight {
+    align-self: stretch;
+    height: 30.1px;
+    position: relative;
+}
+
+.background-items-icon,
+.background-items-icon1,
+.background-items-icon2,
+.background-items-icon3,
+.background-items-icon4,
+.background-items-icon5,
+.background-items-icon6,
+.background-items-icon7 {
+    width: 33.2px;
+    height: 33.2px;
+    position: relative;
+    z-index: 2;
+}
+
+.highlight-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.feature-containern {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.feature-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-containern {
+    flex-direction: column;
+    gap: var(--gap-28xl);
+}
+
+.feature-list,
+.highlight-content {
+    flex-direction: row;
+    /* padding: 0 2rem; */
+}
+
+.highlight-content {
+    position: relative;
+    /* top: 78.6px;
+    left: 738.1px; */
+    background-color: var(--color-honeydew);
+    width: 45%;
+    flex-direction: column;
+    padding: var(--padding-13xl-5) var(--padding-base) var(--padding-24xl) var(--padding-mid);
+    box-sizing: border-box;
+    gap: var(--gap-64xl-2);
+    z-index: 1;
+    text-align: left;
+    font-size: var(--font-size-13xl-5);
+    color: var(--color-gray-700);
+    font-family: var(--font-thonburi);
+}
+
+
+@media screen and (max-width: 800px) {
+    .dailydesign1d {
+        font-size: var(--font-size-7xl);
+        line-height: 39px;
+    }
+
+    .others {
+        font-size: var(--font-size-6xl);
+        line-height: 34px;
+    }
+
+    .business_plan {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .highlight-content1 {
+        position: relative;
+        /* top: 78.6px;
+    left: 100px; */
+        background-color: var(--color-lavender);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: var(--padding-5xs-3) 0 var(--padding-24xl);
+        box-sizing: border-box;
+        gap: var(--gap-75xl-5);
+        z-index: 1;
+        text-align: center;
+        font-size: var(--font-size-11xl-8);
+        color: var(--color-gray-800);
+        font-family: var(--font-sora);
+    }
+
+    .highlight-content {
+        position: relative;
+        /* top: 78.6px;
+        left: 0px; */
+        background-color: var(--color-honeydew);
+        width: 100%;
+        flex-direction: column;
+        padding: var(--padding-13xl-5) var(--padding-base) var(--padding-24xl) var(--padding-mid);
+        box-sizing: border-box;
+        gap: var(--gap-64xl-2);
+        z-index: 1;
+        text-align: left;
+        font-size: var(--font-size-13xl-5);
+        color: var(--color-gray-700);
+        font-family: var(--font-thonburi);
+    }
+
+    .dailydesign1d {
+        font-size: 9px;
+        line-height: 29px;
+    }
+
+    .others {
+        font-size: var(--font-size-lg);
+        line-height: 26px;
+    }
+}

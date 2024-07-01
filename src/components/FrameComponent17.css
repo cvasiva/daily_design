@@ -1,0 +1,138 @@
+.vector-icon42 {
+  width: 0.569rem;
+  height: 0.388rem;
+  position: relative;
+  z-index: 2;
+}
+.vector-wrapper24 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.personal-design-manager {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.manager-container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-9);
+}
+.handover-time-icon {
+  width: 0.569rem;
+  height: 0.388rem;
+  position: relative;
+  z-index: 2;
+}
+.unlimited-revisions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.nda-agreement {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 7.375rem;
+  z-index: 1;
+}
+.n-d-a {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-9);
+}
+.vector-icon43 {
+  width: 0.569rem;
+  height: 0.388rem;
+  position: relative;
+  z-index: 2;
+}
+.pricing-note {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.unlimited-revisions1 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.pricing-note-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-9);
+}
+.services-icon {
+  width: 0.569rem;
+  height: 0.388rem;
+  position: relative;
+  z-index: 2;
+}
+.divider {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.days-handover-time {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.team-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-9);
+}
+.contact-image-icon {
+  width: 0.569rem;
+  height: 0.388rem;
+  position: relative;
+  z-index: 2;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.vip-support1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 7.625rem;
+  z-index: 1;
+}
+.contact-form-parent,
+.manager-container-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-9);
+}
+.manager-container-parent {
+  flex-direction: column;
+  gap: var(--gap-2xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gainsboro-300);
+  font-family: var(--font-sora);
+}
